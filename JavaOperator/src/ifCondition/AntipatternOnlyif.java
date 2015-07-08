@@ -5,7 +5,7 @@ package ifCondition;
  * @ Author : me
  * @ Story : if만 있는 구문에 관한 문법
  * */
-public class Onlyif {
+public class AntipatternOnlyif {
 	public static void main(String[] args) {
 		/*
 		 구문(statement)
@@ -43,5 +43,4 @@ public class Onlyif {
 		 출력 할 것이라는 확신이 있을 때 다룬다.
 		 * */
 	}
-
 }
