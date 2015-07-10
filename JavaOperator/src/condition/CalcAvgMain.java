@@ -1,9 +1,22 @@
-package ifCondition;
+package condition;
 
 import java.util.Scanner;
 
-public class CalcAvg {
-	public void calcAvg(){
+/*
+ * @ Date: 2015.07.09
+ * @ Author : me
+ * @ Story : if-else 예제
+ * 
+ *  학생   국어  영어  수학  총점  평균  합격여부
+ *  ---------------------------------------------
+ *  홍길동  90    90	90	 270	90   장학생 
+ *  
+ *  평균이 90점 이상이면 장학생
+ *  평균이 70 이상 90 미만이면 합격
+ *  평균이 70미만이면 불합격
+ * */
+class CalcAvgMain {
+	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
 		//선언부
@@ -45,5 +58,3 @@ public class CalcAvg {
 	}
 
 }
-
-
